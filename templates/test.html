@@ -1,0 +1,111 @@
+{% extends "layout.html" %}
+
+{% block content%}
+
+    <h1 class="display-1 bg-light pl-2 mb-1" style="line-height:1.8">Popular Clips</h1>
+    
+    <div class="container">
+        <div class="row d-felx felx-flow flex-wrap">
+            
+            <div class="col p-2">
+                <div class="card" style="width: 12rem;">
+                  <img src={{urls[0]}} class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">{{titles[0]}}</h5>
+                    <p class="card-text">{{sources[0]}}</p>
+                  </div>
+                </div>
+            </div>
+            
+            <div class="col p-2">
+                <div class="card" style="width: 12rem;">
+                  <img src={{urls[1]}} class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">{{titles[1]}}</h5>
+                    <p class="card-text">{{sources[1]}}</p>
+                  </div>
+                </div>
+            </div>
+            
+            <div class="col p-2">
+                <div class="card" style="width: 12rem;">
+                  <img src={{urls[2]}} class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">{{titles[2]}}</h5>
+                    <p class="card-text">{{sources[2]}}</p>
+                  </div>
+                </div>
+            </div>
+            
+            <div class="col p-2">
+                <div class="card" style="width: 12rem;">
+                  <img src={{urls[3]}} class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">{{titles[3]}}</h5>
+                    <p class="card-text">{{sources[3]}}</p>
+                  </div>
+                </div>
+            </div>
+        
+        </div>    
+        <div class="row d-felx felx-flow flex-wrap">
+        
+            
+            <div class="col p-2">
+                <div class="card" style="width: 12rem;">
+                  <img src={{urls[4]}} class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">{{titles[4]}}</h5>
+                    <p class="card-text">{{sources[4]}}</p>
+                  </div>
+                </div>
+            </div>
+            
+            <div class="col p-2">
+                <div class="card" style="width: 12rem;">
+                  <img src={{urls[5]}} class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">{{titles[5]}}</h5>
+                    <p class="card-text">{{sources[5]}}</p>
+                  </div>
+                </div>
+            </div>
+            
+            <div class="col p-2">
+                <div class="card" style="width: 12rem;">
+                  <img src={{urls[6]}} class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">{{titles[6]}}</h5>
+                    <p class="card-text">{{sources[6]}}</p>
+                  </div>
+                </div>
+            </div>
+            
+            <div class="col p-2">
+                <div class="card" style="width: 12rem;">
+                  <img src={{urls[7]}} class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">{{titles[7]}}</h5>
+                    <p class="card-text">{{sources[7]}}</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        
+        
+      </div>
+      
+      <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="/">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="/test?page=0">1</a></li>
+            <li class="page-item"><a class="page-link" href="/test?page=1">2</a></li>
+            <li class="page-item"><a class="page-link" href="/test?page=2">3</a></li>
+            <li class="page-item"><a class="page-link" href="/">Next</a></li>
+          </ul>
+        </nav>
+            
+  {% endblock%}
+
+
+            

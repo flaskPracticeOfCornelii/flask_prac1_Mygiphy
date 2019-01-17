@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">JalJalii</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/test">Popular Clips<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    
+    
+    
+    <div class="d-flex align-items-center vh-100">
+        
+        <div class="container">
+            <h1 class="display-1 text-center">JalJalii</h1>
+            <div></div>
+                    
+                    <form action="/search">
+                      <div class="form-group d-flex justify-content-center">
+                        <input type="text" class="d-inline form-control" name="query" placeholder="write in wanted searching word">
+                        <button type="submit" class="d-inline btn btn-primary" value="search">Submit</button>
+                      </div>
+                    </form>
+
+        </div>
+        
+    </div>   
+{% endblock %}
